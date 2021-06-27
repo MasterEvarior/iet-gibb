@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: ${JDBC_DATABASE_URL}
+    username: ${JDBC_DATABASE_USERNAME}
+    password: ${JDBC_DATABASE_PASSWORD}
+    platform: postgres
+  jpa:
+    database: POSTGRESQL
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+server:
+  servlet:
+    context-path: '/api/v1'
+jwt:
+  secret-key: ${JWT_SECRET_KEY}
+  expiration-time: 1800000
+springdoc:
+  api-docs:
+    enabled: ${SPRING_DOC_ENABLED}
