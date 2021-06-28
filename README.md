@@ -21,3 +21,5 @@ Fühl die frei hie z kopiere odr di lah z inspieriere. Falls des abr so machsch 
 Manchi Modul si zämme mit andere Lüt gmacht worde. Drum Credit where Credit is due.
 - [This dude](https://github.com/0xlmnt)
 - [rsenften](https://github.com/rsenften)
+- [jannis-z](https://github.com/jannis-z)
+- [leosch1](https://github.com/leosch1)
