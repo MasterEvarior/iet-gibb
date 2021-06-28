@@ -1,0 +1,72 @@
+﻿<Window x:Class="M120Projekt.WindowLib"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:M120Projekt"
+        mc:Ignorable="d"
+        Title="View" Height="800" Width="450"  MinHeight="800" MinWidth="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="56*"></RowDefinition>
+            <RowDefinition Height="33*"/>
+            <RowDefinition Height="36*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="38*"/>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="42*"/>
+            <RowDefinition Height="49*"/>
+            <RowDefinition Height="39*"></RowDefinition>
+            <RowDefinition Height="181*"/>
+            <RowDefinition Height="33*"></RowDefinition>
+            <RowDefinition Height="186*"/>
+            <RowDefinition Height="40*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.8*"></ColumnDefinition>
+            <ColumnDefinition Width="1.2*"></ColumnDefinition>
+            <ColumnDefinition Width="1.2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <!--First Row-->
+        <Border BorderThickness="1" Margin="15" BorderBrush="Black" Grid.RowSpan="8">
+            <Image Margin="15" Grid.RowSpan="8">
+               <!-- <Image.Source>
+                    <BitmapImage UriSource="C:\Users\vmadmin\source\repos\NewRepo\M120Projekt\Resources\Images\books.png"></BitmapImage>
+                </Image.Source> -->
+            </Image>
+        </Border>
+        <Label Name="Title" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Margin="15,15,15,0" Content="Title" FontSize="25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <!--Second Row-->
+        <Label Content="ISBN:" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" FontWeight="Bold" Margin="0,4,0,3"></Label>
+        <Label Name="ISBN" Content="I am an ISBN" Grid.Column="2" Grid.Row="1" VerticalAlignment="Center" Margin="0,4,0,3"></Label>
+        <!--Third Row-->
+        <Label Content="Author:" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" FontWeight="Bold" Margin="0,5"></Label>
+        <Label Name="Author" Content="I am an author" Grid.Column="2" Grid.Row="2" VerticalAlignment="Center" Margin="0,5"></Label>
+        <!--Fourth Row-->
+        <Label Content="Release date:" Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" FontWeight="Bold" Margin="0,5,0,4"></Label>
+        <Label Name="PublishDate" Content="9.9.1999" Grid.Column="2" Grid.Row="3" VerticalAlignment="Center" Margin="0,5,0,4"></Label>
+        <!--Fift Row-->
+        <Label Content="Price:" Grid.Column="1" Grid.Row="4" VerticalAlignment="Center" FontWeight="Bold" Margin="0,6"></Label>
+        <Label Name="Price" Content="399$" Grid.Column="2" Grid.Row="4" VerticalAlignment="Center" Margin="0,6"></Label>
+        <!--Sixt Row-->
+        <Label Content="Genre:" Grid.Column="1" Grid.Row="5" VerticalAlignment="Center" FontWeight="Bold" Margin="0,8,0,7"></Label>
+        <Label Name="Genre" Content="I am a genre" Grid.Column="2" Grid.Row="5" VerticalAlignment="Center" Margin="0,8,0,7"></Label>
+        <!--Sevent Row-->
+        <Label Content="Lent out:" Grid.Column="1" Grid.Row="6" VerticalAlignment="Center" FontWeight="Bold" Margin="0,8"></Label>
+        <Label Name="LendOut" Content="Yes/No" Grid.Column="2" Grid.Row="6" VerticalAlignment="Center" Margin="0,8"></Label>
+        <!--Eigtht Row-->
+        <Label Content="Lent out to:" Grid.Column="1" Grid.Row="7" VerticalAlignment="Center" FontWeight="Bold" Margin="0,11,0,12"></Label>
+        <Label Name="LendOutTo" Content="Name/N.a" Grid.Column="2" Grid.Row="7" VerticalAlignment="Center" Margin="0,11,0,12"></Label>
+        <!--Ninth Row-->
+        <Label Content="Description" Grid.Column="0" Grid.Row="8" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontWeight="Bold" Margin="10,0,0,0"></Label>
+        <!--Tenth Row-->
+        <TextBlock Name="Description" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="9" Margin="10,0,10,10" Background="Gray" Text="Description..."></TextBlock>
+        <!--Eleventht Row-->
+        <Label Content="Comment" Grid.Column="0" Grid.Row="10" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontWeight="Bold" Margin="10,0,0,0"></Label>
+        <!--12. Row-->
+        <TextBlock Name="Comment" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="11" Margin="10,0,10,10" Background="Gray" Text="Comments..."></TextBlock>
+        <!--13. Row-->
+        <Button Name="Delete" Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="12" Margin="10,5" Content="Delete" Click="Delete_Click"></Button>
+        <Button Name="Change" Grid.Column="2" Grid.ColumnSpan="1" Grid.Row="12" Margin="10,5" Content="Edit" Click="Change_Click"></Button>
+    </Grid>
+</Window>

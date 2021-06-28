@@ -1,0 +1,75 @@
+﻿<UserControl x:Class="M120Projekt.WindowChange"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:M120Projekt"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Height="850" Width="450" MinHeight="800" MinWidth="400">
+    <Grid Margin="0,0,0,1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="56*"></RowDefinition>
+            <RowDefinition Height="33*"/>
+            <RowDefinition Height="36*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="38*"/>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="42*"/>
+            <RowDefinition Height="49*"/>
+            <RowDefinition Height="39*"></RowDefinition>
+            <RowDefinition Height="181*"/>
+            <RowDefinition Height="33*"></RowDefinition>
+            <RowDefinition Height="186*"/>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.8*"></ColumnDefinition>
+            <ColumnDefinition Width="1.2*"></ColumnDefinition>
+            <ColumnDefinition Width="1.2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <!--First Row-->
+        <Border BorderThickness="1" Margin="15" BorderBrush="Black" Grid.RowSpan="8">
+            <Image Margin="15" Grid.RowSpan="8" Name="Image">
+                <!-- <Image.Source>
+                    <BitmapImage UriSource="C:\Users\vmadmin\source\repos\NewRepo\M120Projekt\Resources\Images\books.png"></BitmapImage>
+                </Image.Source> -->
+            </Image>
+        </Border>
+        <xctk:WatermarkTextBox Watermark="Title..." Name="title" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Margin="15,15,15,0" FontSize="25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <!--Second Row-->
+        <Label Content="ISBN:" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" FontWeight="Bold" Margin="0,4,0,3"></Label>
+        <xctk:WatermarkTextBox ToolTipService.ShowDuration="10" Watermark="0-596-52068-9" Name="ISBN" Grid.Column="2" Grid.Row="1" VerticalAlignment="Center" Margin="0,4,0,3" BorderBrush="Black"></xctk:WatermarkTextBox>
+        <!--Third Row-->
+        <Label Content="Author" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" FontWeight="Bold" Margin="0,5"></Label>
+        <xctk:WatermarkTextBox Watermark="J.C Robling" Name="author" Grid.Column="2" Grid.Row="2" VerticalAlignment="Center" Margin="0,4,0,3" BorderBrush="Black"></xctk:WatermarkTextBox>
+        <!--Fourth Row-->
+        <Label Content="Release date:" Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" FontWeight="Bold" Margin="0,5,0,4"></Label>
+        <DatePicker Name="datePicker" Grid.Column="2" Grid.Row="3" Margin="0" VerticalAlignment="Center"></DatePicker>
+        <!--Fift Row-->
+        <Label Content="Price:" Grid.Column="1" Grid.Row="4" VerticalAlignment="Center" FontWeight="Bold" Margin="0,6"></Label>
+        <xctk:WatermarkTextBox Watermark="399.99" Name="Price"  Grid.Column="2" Grid.Row="4" VerticalAlignment="Center" Margin="0,4,0,3" BorderBrush="Black"></xctk:WatermarkTextBox>
+        <!--Sixt Row-->
+        <Label Content="Genre:" Grid.Column="1" Grid.Row="5" VerticalAlignment="Center" FontWeight="Bold" Margin="0,8,0,7"></Label>
+        <xctk:WatermarkTextBox Watermark="Vampire Fantasy Sci-fi" Name="Genre" Grid.Column="2" Grid.Row="5" VerticalAlignment="Center" Margin="0,4,0,3" BorderBrush="Black"></xctk:WatermarkTextBox>
+        <!--Sevent Row-->
+        <Label Content="Lent out:" Grid.Column="1" Grid.Row="6" VerticalAlignment="Center" FontWeight="Bold" Margin="0,8"></Label>
+        <ComboBox Name="lentOut" Grid.Column="2" Grid.Row="6" Margin="0,10,0,10" SelectedIndex="0">
+            <ComboBoxItem Content="Yes"></ComboBoxItem>
+            <ComboBoxItem Content="No"></ComboBoxItem>
+        </ComboBox>
+        <!--Eigtht Row-->
+        <Label Content="Lent out to:" Grid.Column="1" Grid.Row="7" VerticalAlignment="Center" FontWeight="Bold" Margin="0,11,0,12"></Label>
+        <xctk:WatermarkTextBox Name="lentOutTo" Watermark="Max Muster"  Grid.Column="2" Grid.Row="7" VerticalAlignment="Center" Margin="0,4,0,3" BorderBrush="Black"></xctk:WatermarkTextBox>
+        <!--Ninth Row-->
+        <Label Content="Description" Grid.Column="0" Grid.Row="8" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontWeight="Bold" Margin="10,0,0,0"></Label>
+        <!--Tenth Row-->
+        <xctk:WatermarkTextBox Watermark="Your wonderful description..." Name="description" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="9" Margin="10,0,10,10" ></xctk:WatermarkTextBox>
+        <!--Eleventht Row-->
+        <Label Content="Comment" Grid.Column="0" Grid.Row="10" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontWeight="Bold" Margin="10,0,0,0"></Label>
+        <!--12. Row-->
+        <xctk:WatermarkTextBox Watermark="Your inspirational comment..." Name="comment" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="11" Margin="10,10,15,10" TextChanged="TextBox_TextChanged"></xctk:WatermarkTextBox>
+        <Button Content="Apply" Grid.Column="2" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="12" VerticalAlignment="Top" Width="102" Height="30" Click="Button_Click"/>
+        <Button Content="Cancel" Grid.Column="1" HorizontalAlignment="Left" Margin="15,10,0,0" Grid.Row="12" VerticalAlignment="Top" Width="102" Height="30" Click="Button_Click_1"/>
+    </Grid>
+</UserControl>
