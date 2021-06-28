@@ -1,0 +1,112 @@
+{
+    "profiles": [
+        {
+            "name": "Hans",
+            "route": "hans",
+            "pictures": [
+                {
+                    "id": "1",
+                    "title": "Unendlicher Stahl",
+                    "file_name_original": "hans/before_1.png",
+                    "file_name_edited": "hans/after_1_old.png",
+                    "description": "Ein Geländer fotografiert zwischen dem IET-Gebäude und der Klangbrücke. 4.8mm Brennweite, f/2.8 Blende, 1/169 s Belichtungszeit, 100 ISO"
+                },
+                {
+                    "id": "2",
+                    "title": "Farbige Welt - Stoff, Stahl und Farbe",
+                    "file_name_original": "hans/before_2.png",
+                    "file_name_edited": "hans/after_2.png",
+                    "description": "Klettergerüst im Pärkli. 4.2mm Brennweite, f/1.7 Blende, 1/200 s Belichtungszeit, 40 ISO"
+                },
+                {
+                    "id": "3",
+                    "title": "Unsichtbare Kraft",
+                    "file_name_original": "hans/before_3.png",
+                    "file_name_edited": "hans/after_3.png",
+                    "description": "Ein scheinbar von der Aura des Baumes gebogenes Geländer im Pärkli. 23mm Brennweite, f/2.8 Blende, 1/125 s Belichtungszeit, 200 ISO"
+                }
+            ]
+        },
+        {
+            "name": "Schorsch",
+            "route": "schorsch",
+            "pictures": [
+                {
+                    "id": "1",
+                    "title": "Message",
+                    "file_name_original": "schorsch/Before_1.jpg",
+                    "file_name_edited": "schorsch/After_1.jpg",
+                    "description": "Metal can be more than just a bare, cold, hard surface. It can also be a useful tool to get your message across. 12mm Brennweite, f/2.8 Blende, 1/320s Belichtungszeit, 200 ISO."
+                },
+                {
+                    "id": "2",
+                    "title": "Cohesion",
+                    "file_name_original": "schorsch/Before_2.jpg",
+                    "file_name_edited": "schorsch/After_2.jpg",
+                    "description": "This piece of metal keeps other pieces of metal together. Talk about team work, right? 13mm Brennweite, f/2.8 Blende, 1/320s Belichtungszeit, 200 ISO."
+                },
+                {
+                    "id": "3",
+                    "title": "Time",
+                    "file_name_original": "schorsch/Before_3.jpg",
+                    "file_name_edited": "schorsch/After_3.jpg",
+                    "description": "Time changes everything, even metal. On a less poetic note: I think those rusty metal bars look pretty cool. 21mm Brennweite, f/2.8 Blende, 1/80s Belichtungszeit, 200 ISO."
+                }
+            ]
+        },
+        {
+            "name": "Manfred",
+            "route": "manfred",
+            "pictures": [
+                {
+                    "id": "1",
+                    "title": "Behind bars",
+                    "file_name_original": "manfred/one_orig.jpg",
+                    "file_name_edited": "manfred/one_edited.jpg",
+                    "description": "Doesn't metal make you feel somewhat captivated? At least if you see bars like these. 12.00mm | f/2.8 | 1/200s | ISO 200"
+                },
+                {
+                    "id": "2",
+                    "title": "Sturdiness",
+                    "file_name_original": "manfred/two_orig.jpg",
+                    "file_name_edited": "manfred/two_edited.jpg",
+                    "description": "Where rope meets metal. And as widely known - metal is the foundation of sturdy construction. 28.00mm | f/2.8 | 1/250s | ISO 200"
+                },
+                {
+                    "id": "3",
+                    "title": "No trespassing",
+                    "file_name_original": "manfred/three_orig.jpg",
+                    "file_name_edited": "manfred/three_edited.jpg",
+                    "description": "No way to go beyond this fence. Except if someone laid waste to it... but who'd even do that? 13.00mm | f/2.8 | 1/320s | ISO 200"
+                }
+            ]
+        },
+        {
+            "name": "Gunter",
+            "route": "gunter",
+            "pictures": [
+                {
+                    "id": "1",
+                    "title": "Sicherheit",
+                    "file_name_original": "gunter/image1_original.png",
+                    "file_name_edited": "gunter/image1_edited.png",
+                    "description": "Ein Schloss angehängt an einen Kasten im Park vor der GIBB. 23mm Brennweite, f/2.8 Blende, 1/320 s Belichtungszeit, 200 ISO"
+                },
+                {
+                    "id": "2",
+                    "title": "Zusammenarbeit",
+                    "file_name_original": "gunter/image2_original.png",
+                    "file_name_edited": "gunter/image2_edited.png",
+                    "description": "Eine Schraube zusammen mit einer Mutter, welche Teil des Geländers im Park vor der GIBB sind. 12mm Brennweite, f/2.8 Blende, 1/200 s Belichtungszeit, 200 ISO"
+                },
+                {
+                    "id": "3",
+                    "title": "Aussehen",
+                    "file_name_original": "gunter/image3_original.png",
+                    "file_name_edited": "gunter/image3_edited.png",
+                    "description": "Ein bemalter Türgriff einer bemalten Tür vor der Garage der GIBB. 13mm Brennweite, f/2.8 Blende, 1/80s Belichtungszeit, 200 ISO"
+                }
+            ]
+        }
+    ]
+}

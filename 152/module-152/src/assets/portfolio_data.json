@@ -1,0 +1,184 @@
+{
+    "portfolios": [
+        {
+            "name": "Schorsch",
+            "route": "schorsch",
+            "pdfs": [
+                {
+                    "title": "Dateiformate",
+                    "file": "schorsch/dummy.pdf"
+                },
+                {
+                    "title": "Urheberrecht",
+                    "file": "schorsch/dummy.pdf"
+                },
+                {
+                    "title": "Software",
+                    "file": "schorsch/dummy.pdf"
+                }
+            ],
+            "photohunts": [
+                {
+                    "title": "Woche 1",
+                    "pictures": [
+                        "schorsch/pirsch1_1.jpg",
+                        "schorsch/pirsch1_2.jpg",
+                        "schorsch/pirsch1_3.jpg"
+                    ]
+                },
+                {
+                    "title": "Woche 2",
+                    "pictures": [
+                        "schorsch/pirsch2_1.jpg",
+                        "schorsch/pirsch2_2.jpg",
+                        "schorsch/pirsch2_3.jpg"
+                    ]
+                },
+                {
+                    "title": "Woche 3",
+                    "pictures": [
+                        "schorsch/pirsch3_1.jpg",
+                        "schorsch/pirsch3_2.jpg",
+                        "schorsch/pirsch3_3.jpg"
+                    ]
+                }
+            ]
+
+        },
+        {
+            "name": "Gunter",
+            "route": "gunter",
+            "pdfs": [
+                {
+                    "title": "Dateiformate",
+                    "file": "gunter/dummy.pdf"
+                },
+                {
+                    "title": "Urheberrecht",
+                    "file": "gunter/dummy.pdf"
+                },
+                {
+                    "title": "Software",
+                    "file": "gunter/dummy.pdf"
+                }
+            ],
+            "photohunts": [
+                {
+                    "title": "Favoriten Woche 1",
+                    "pictures": [
+                        "gunter/pirsch1_1.png",
+                        "gunter/pirsch1_2.png",
+                        "gunter/pirsch1_3.png"
+                    ]
+                },
+                {
+                    "title": "Favoriten Woche 2",
+                    "pictures": [
+                        "gunter/pirsch2_1.png",
+                        "gunter/pirsch2_2.png",
+                        "gunter/pirsch2_3.png"
+                    ]
+                },
+                {
+                    "title": "Favoriten Woche 3",
+                    "pictures": [
+                        "gunter/pirsch3_1.png",
+                        "gunter/pirsch3_2.png",
+                        "gunter/pirsch3_3.png"
+                    ]
+                }
+            ]
+
+        },
+        {
+            "name": "Manfred",
+            "route": "manfred",
+            "pdfs": [
+                {
+                    "title": "Dateiformate",
+                    "file": "manfred/dummy.pdf"
+                },
+                {
+                    "title": "Urheberrecht",
+                    "file": "manfred/dummy.pdf"
+                },
+                {
+                    "title": "Software",
+                    "file": "manfred/dummy.pdf"
+                }
+            ],
+            "photohunts": [
+                {
+                    "title": "Woche 1",
+                    "pictures": [
+                        "manfred/p1_one.png",
+                        "manfred/p1_two.png",
+                        "manfred/p1_three.png"
+                    ]
+                },
+                {
+                    "title": "Woche 2",
+                    "pictures": [
+                        "manfred/p2_one.png",
+                        "manfred/p2_two.png",
+                        "manfred/p2_three.png"
+                    ]
+                },
+                {
+                    "title": "Woche 3",
+                    "pictures": [
+                        "manfred/p3_one.png",
+                        "manfred/p3_two.png",
+                        "manfred/p3_three.png"
+                    ]
+                }
+            ]
+
+        },
+        {
+            "name": "Hans",
+            "route": "hans",
+            "pdfs": [
+                {
+                    "title": "Urheberrecht",
+                    "file": "hans/dummy.pdf"
+                },
+                {
+                    "title": "Datenformate",
+                    "file": "hans/dummy.pdf"
+                },
+                {
+                    "title": "Skripte und Plugins",
+                    "file": "hans/dummy.pdf"
+                }
+            ],
+            "photohunts": [
+                {
+                    "title": "Woche 1",
+                    "pictures": [
+                        "hans/pirsch1_1.png",
+                        "hans/pirsch1_2.png",
+                        "hans/pirsch1_3.png"
+                    ]
+                },
+                {
+                    "title": "Woche 2",
+                    "pictures": [
+                        "hans/pirsch2_1.png",
+                        "hans/pirsch2_2.png",
+                        "hans/pirsch2_3.png"
+                    ]
+                },
+                {
+                    "title": "Woche 3",
+                    "pictures": [
+                        "hans/pirsch3_1.png",
+                        "hans/pirsch3_2.png",
+                        "hans/pirsch3_3.png"
+                    ]
+                }
+            ]
+
+        }
+    ]
+}
